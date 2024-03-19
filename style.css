@@ -6,6 +6,7 @@
   height: 480px;
   width: 320px;
   padding: 10px;
+  border-radius: 12px;
 }
 
 #operators {
@@ -25,7 +26,7 @@
 
 .op {
   border: none;
-  border-radius: 32px;
+  border-radius: 16px;
   background-color: #FF9500;
   height: 50px;
   color: white;
@@ -39,12 +40,13 @@
 #display{
   margin-bottom: auto;
   height: 170px;
-  color: white;
+  color: BLACK;
   font-family: Helvetica;
   display: flex;
   justify-content: flex-end;
   align-items: end;
   font-size: 40px;
+  background-color: #cdcdcd;
 }
 
 #operands {
@@ -60,7 +62,7 @@
   height: 50px;
   width: 75px;
   border: none;
-  border-radius: 32px;
+  border-radius: 16px;
   background-color: #505050;
   color: white;
   font-size: 30px;
@@ -71,7 +73,7 @@
   height: 50px;
   width: 156px;
   border: none;
-  border-radius: 32px;
+  border-radius: 16px;
   background-color: #505050;
   color: white;
   font-size: 30px;
